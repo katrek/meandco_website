@@ -2,14 +2,14 @@
 #header {
     border-style: none;
     width: 800px;
-    height: auto;    
+    height: auto;
 }
 #wrapper {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
-    width: 800px;    
+    width: 800px;
 }
 body {
     background-color: #E0E0E0;
@@ -71,7 +71,7 @@ ul.errorlist {
     font-size: 1.2em;
     margin: 0 0 3px;
     padding: 4px 5px;
-    text-align: center;    
+    text-align: center;
     border-radius: 3px;
 }
 
@@ -80,14 +80,14 @@ input, textarea {
     padding: 5px!important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(169,169,169)
 }
 
-input {	
+input {
     height: 30px;
 }
 .success {
@@ -127,4 +127,18 @@ input {
 
 .required label:after {
     content: "*";
+}
+
+.quotehdr th {
+    background-color: #4c4c4c;
+    color: white;
+    text-align: center;
+    padding: 8px 5px;
+    border: none;
+}
+.quoterow td {
+    padding: 5x 10px;
+}
+.altrow {
+    background-color: #e0e0e0;
 }
